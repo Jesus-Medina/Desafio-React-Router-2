@@ -1,0 +1,19 @@
+.pokemon-card {
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  width: 50%;
+}
+
+.pokemon-card img {
+  width: 55%;
+}
+
+.pokemon-description {
+  width: 50%;
+}
+
+.pokemon-description ul {
+  text-align: start;
+  padding-left: 40%;
+}

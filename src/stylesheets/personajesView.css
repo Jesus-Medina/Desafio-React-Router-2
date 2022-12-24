@@ -1,0 +1,38 @@
+.form-container {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+form select {
+  width: 20%;
+  text-align: center;
+  padding: .5rem;
+  margin: 1rem;
+  cursor: pointer;
+  font-size: large;
+}
+
+form button {
+  color: white;
+  border: none;
+  border-radius: .2rem;
+  padding: .5rem 1rem;
+  background-color: black;
+}
+
+form button:hover {
+  cursor: pointer;
+  color: goldenrod;
+  background-color: rgb(22, 22, 22);
+}
